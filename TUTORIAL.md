@@ -364,6 +364,10 @@ Once all the attributes have been created, repeat the process for the relationsh
 </tr>
 </table>
 
+If you like a visual representation of your entities, one version might be:
+
+![Core Data Entity Diagram](Images/CoreData-Diagrams.jpeg)
+
 ### Configuring RestKit & Core Data
 
 Now that the data model is configured, we can proceed to configuring the application to use RestKit. Open up `RKGAppDelegate.h` and replace the interface definition for `RKGAppDelegate` with the following:
